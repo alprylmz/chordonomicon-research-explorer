@@ -1,0 +1,4 @@
+id,chords,release_date,genres,decade,rock_genre,artist_id,main_genre,spotify_song_id,spotify_artist_id
+1,"<intro_1> E D A/Cs E D A/Cs <verse_1> E D A/Cs G <chorus_1> E G D A",2003-01-01,"'alternative metal' 'alternative rock'",2000,pop rock,artist_1,rock,song1,artistspotify1
+2,"<verse_1> Am F C G Am F C G <chorus_1> F G Am Am",2014-04-12,"'indie pop' 'dream pop'",2010,indie rock,artist_2,pop,song2,artistspotify2
+3,"<verse_1> Em C G D Em C G D <bridge_1> C D Em",2016-02-01,"'dream pop' 'indietronica'",2010,indie rock,artist_3,pop,song3,artistspotify3

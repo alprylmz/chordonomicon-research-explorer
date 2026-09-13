@@ -1,0 +1,65 @@
+# macOS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Large / local datasets
+data/chordonomicon_v2.csv
+data/*.csv
+data/*.duckdb
+data/*.duckdb.wal
+data/*.parquet
+
+# Local model outputs and experiment artifacts
+data/key_models/*.joblib
+data/key_models/*.parquet
+data/key_models/*.duckdb
+data/key_models/*_summary.json
+data/key_models/*_report.json
+data/key_models/mode_balance_experiment/*.joblib
+data/key_models/mode_balance_experiment/*.json
+
+# Development archives / generated patches
+_archive/
+*.zip
+
+# Logs / temp
+*.log
+*.tmp
+
+# Local research data - never commit
+data/
+
+# Local Python environment
+.venv/
+
+# Development archive
+_archive/
+
+# Generated/cache files
+__pycache__/
+*.pyc
+
+# Large analytical/model artifacts
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.joblib
+
+# Local AI coding-tool configuration
+.agents/
+.claude/
+
+# Temporary install / hotfix notes
+INSTALL_*.txt
